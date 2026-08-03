@@ -1,0 +1,53 @@
+name: Sync Animeko sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 10:00 Asia/Shanghai. GitHub cron is UTC.
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-animeko-sources-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Run tests
+        run: python -m unittest discover -s tests
+
+      - name: Generate Animeko source export
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -m animeko_sources.sync merge \
+            --max-results 30 \
+            --exclude-repo "${{ github.repository }}" \
+            --output animeko.json \
+            --result-out sync-summary.json
+
+      - name: Commit generated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add animeko.json sync-summary.json
+          if git diff --staged --quiet; then
+            echo "Animeko generated files are unchanged."
+          else
+            git commit -m "chore: sync generated animeko export"
+            git push
+          fi

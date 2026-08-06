@@ -1,9 +1,9 @@
 {
   "official_sources": 19,
-  "candidate_sources": 257,
+  "candidate_sources": 249,
   "excluded_official": 55,
-  "deduped_sources": 105,
-  "output_sources": 97,
+  "deduped_sources": 102,
+  "output_sources": 92,
   "status": "partial",
   "official_url": "https://sub.creamycake.org/v1/css1.json",
   "github_query": "exportedMediaSourceDataList language:JSON -repo:CrazyBunQnQ/animeko-sources",

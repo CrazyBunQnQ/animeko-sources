@@ -12,11 +12,11 @@
   "downloaded_candidates": 25,
   "skipped_candidates": [
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/ac5accc25a2d1539336ab70ff247a63bbc51899d/backend/src/services/anisubs/default-bt1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/d83593e1b1c627fd054e962563c9dee987321f1c/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/ac5accc25a2d1539336ab70ff247a63bbc51899d/backend/src/services/anisubs/default-css1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/d83593e1b1c627fd054e962563c9dee987321f1c/backend/src/services/anisubs/default-css1.json",
       "reason": "malformed_json"
     },
     {

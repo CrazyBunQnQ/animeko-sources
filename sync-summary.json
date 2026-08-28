@@ -1,8 +1,8 @@
 {
   "official_sources": 18,
-  "candidate_sources": 210,
-  "excluded_official": 41,
-  "deduped_sources": 83,
+  "candidate_sources": 205,
+  "excluded_official": 40,
+  "deduped_sources": 79,
   "output_sources": 86,
   "status": "partial",
   "official_url": "https://sub.creamycake.org/v1/css1.json",
@@ -12,11 +12,11 @@
   "downloaded_candidates": 25,
   "skipped_candidates": [
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/2314b13a706883fcbe3e471926416e9e9b93983e/backend/src/services/anisubs/default-bt1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/ecf65df368e136824f381543867720c6b237db63/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/2314b13a706883fcbe3e471926416e9e9b93983e/backend/src/services/anisubs/default-css1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/ecf65df368e136824f381543867720c6b237db63/backend/src/services/anisubs/default-css1.json",
       "reason": "malformed_json"
     },
     {

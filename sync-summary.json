@@ -1,28 +1,15 @@
 {
   "official_sources": 18,
-  "candidate_sources": 205,
-  "excluded_official": 40,
-  "deduped_sources": 79,
-  "output_sources": 86,
-  "status": "partial",
+  "candidate_sources": 7,
+  "excluded_official": 3,
+  "deduped_sources": 0,
+  "output_sources": 4,
+  "status": "ok",
   "official_url": "https://sub.creamycake.org/v1/css1.json",
   "github_query": "exportedMediaSourceDataList language:JSON -repo:CrazyBunQnQ/animeko-sources",
   "excluded_repo": "CrazyBunQnQ/animeko-sources",
-  "github_files": 28,
-  "downloaded_candidates": 25,
-  "skipped_candidates": [
-    {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/ecf65df368e136824f381543867720c6b237db63/backend/src/services/anisubs/default-bt1.json",
-      "reason": "malformed_json"
-    },
-    {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/ecf65df368e136824f381543867720c6b237db63/backend/src/services/anisubs/default-css1.json",
-      "reason": "malformed_json"
-    },
-    {
-      "url": "https://github.com/qwerasd11223/-/blob/83cb9070702056fedc83e16348a2037e852bff2e/deepseek_json_20250516_3abab3.json",
-      "reason": "malformed_json"
-    }
-  ],
+  "github_files": 2,
+  "downloaded_candidates": 2,
+  "skipped_candidates": [],
   "used_github_token": true
 }

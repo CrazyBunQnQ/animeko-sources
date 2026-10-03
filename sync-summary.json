@@ -12,11 +12,11 @@
   "downloaded_candidates": 26,
   "skipped_candidates": [
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/372cd494970a217582bbeb3dea0e788a60998916/backend/src/services/anisubs/default-bt1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/97059c4906635cb5d8fd031edb2d1992dee04662/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/372cd494970a217582bbeb3dea0e788a60998916/backend/src/services/anisubs/default-css1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/97059c4906635cb5d8fd031edb2d1992dee04662/backend/src/services/anisubs/default-css1.json",
       "reason": "malformed_json"
     },
     {
@@ -24,7 +24,7 @@
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/XYL333FYQ/TongMu/blob/de403bbfe563dabe03cdbe2a196594b9ab44fb3c/backend/src/services/anisubs/default-bt1.json",
+      "url": "https://github.com/XYL333FYQ/TongMu/blob/3be78ba73131570d0b22f8f8d02ffac82205ac08/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     }
   ],

@@ -1,30 +1,26 @@
 {
   "official_sources": 18,
-  "candidate_sources": 218,
+  "candidate_sources": 250,
   "excluded_official": 42,
-  "deduped_sources": 90,
-  "output_sources": 86,
+  "deduped_sources": 96,
+  "output_sources": 112,
   "status": "partial",
   "official_url": "https://sub.creamycake.org/v1/css1.json",
   "github_query": "exportedMediaSourceDataList language:JSON -repo:CrazyBunQnQ/animeko-sources",
   "excluded_repo": "CrazyBunQnQ/animeko-sources",
   "github_files": 30,
-  "downloaded_candidates": 26,
+  "downloaded_candidates": 27,
   "skipped_candidates": [
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/8128bfae1e8143bc35bb4449fc76314c7744a599/backend/src/services/anisubs/default-bt1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/698b98085a2ba9d41ab3dee70fe53b1f8d00645f/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/8128bfae1e8143bc35bb4449fc76314c7744a599/backend/src/services/anisubs/default-css1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/698b98085a2ba9d41ab3dee70fe53b1f8d00645f/backend/src/services/anisubs/default-css1.json",
       "reason": "malformed_json"
     },
     {
       "url": "https://github.com/qwerasd11223/-/blob/83cb9070702056fedc83e16348a2037e852bff2e/deepseek_json_20250516_3abab3.json",
-      "reason": "malformed_json"
-    },
-    {
-      "url": "https://github.com/XYL333FYQ/TongMu/blob/4f7d8fae62aad41f51c53f4183a8850125956d66/backend/src/services/anisubs/default-bt1.json",
       "reason": "malformed_json"
     }
   ],

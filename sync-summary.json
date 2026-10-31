@@ -1,9 +1,9 @@
 {
   "official_sources": 18,
-  "candidate_sources": 249,
-  "excluded_official": 42,
-  "deduped_sources": 96,
-  "output_sources": 111,
+  "candidate_sources": 251,
+  "excluded_official": 43,
+  "deduped_sources": 99,
+  "output_sources": 109,
   "status": "partial",
   "official_url": "https://sub.creamycake.org/v1/css1.json",
   "github_query": "exportedMediaSourceDataList language:JSON -repo:CrazyBunQnQ/animeko-sources",
@@ -12,11 +12,11 @@
   "downloaded_candidates": 26,
   "skipped_candidates": [
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/8892242808e904c500e4249b5a9f78da80a5c903/backend-go/internal/anisubs/data/default-bt1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/e1ed57c31662e5920130af0ca93d89f5cd419720/backend-go/internal/anisubs/data/default-bt1.json",
       "reason": "malformed_json"
     },
     {
-      "url": "https://github.com/Zero-wyc/ZViewer/blob/8892242808e904c500e4249b5a9f78da80a5c903/backend-go/internal/anisubs/data/default-css1.json",
+      "url": "https://github.com/Zero-wyc/ZViewer/blob/e1ed57c31662e5920130af0ca93d89f5cd419720/backend-go/internal/anisubs/data/default-css1.json",
       "reason": "malformed_json"
     },
     {
